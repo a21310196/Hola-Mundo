@@ -1,0 +1,39 @@
+@startuml pow  
+class pow
+
+class juego
+
+class juegopelota
+
+class pelota
+
+class patineta
+
+class rueda
+
+class tablapatineta
+
+class juegopatineta
+    
+class cielo
+   
+class tierra
+   
+    pow o--juego
+
+    juego<|--juegopelota
+    juego<|--juegopatineta
+    pow o-- patineta
+    pow o-- pelota
+    juegopelota--* pelota
+            patineta--*rueda
+            patineta--*tablapatineta
+    pelota --* juegopelota
+    juegopatineta --* cielo
+    juegopatineta --* tierra
+juegopatineta --* patineta
+
+
+    
+
+@enduml
