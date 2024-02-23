@@ -1,5 +1,5 @@
 @startuml pow  
-class pow
+
 
 class juego
 
@@ -33,7 +33,13 @@ class tierra
     juegopatineta --* tierra
 juegopatineta --* patineta
 
-
+class Mascota{
+    -vida : int
+    +comer(alimneto:Alimento)
+}
+class Alimento{
+    
+}
     
 
 @enduml
