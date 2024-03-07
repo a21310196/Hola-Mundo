@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
    <<endl;
    
    Dibujo dibujo("./assetes/Lacalaca.txt");
-   Dibujo dibujo2("./assetes/Fanyasmon.txt");
+   Dibujo dibujo2("./assetes/Fantasmon.txt");
 
    list<Dibujo> dibujos;
    dibujos.push_back(dibujo);
